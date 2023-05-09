@@ -7,7 +7,7 @@ const Auth = () => {
       <section className="w-full h-full flex mx-auto justify-center items-center bg-[#F5F5F5] gap-2">
         <article className="">
           <h1 className="text-3xl font-bold leading-10">Sign in</h1>
-          <p className="font-normal text-base text-[#000000] leading-5">
+          <p className="font-normal text-base text-[#000000] leading-5 font-lato font-normal">
             Sign in to your account
           </p>
           <section className="flex gap-3 mt-6">
@@ -26,29 +26,35 @@ const Auth = () => {
           </section>
           <form className="flex flex-col gap-4 mt-6 px-4 py-6 bg-white rounded-2xl">
             <span className="flex flex-col gap-1">
-              <label htmlFor="">Email</label>
+              <label htmlFor="" className="font-bold font-normal">
+                Email address
+              </label>
               <input
                 type="email"
                 placeholder="johndoe@gmail.com"
-                className=" bg-[#EAEAEA] rounded-xl px-2 py-1 outline-none"
+                className=" bg-[#EAEAEA] rounded-xl px-4 py-1 outline-none  font-lato font-normal"
               />
             </span>
             <span className="flex flex-col gap-1">
-              <label htmlFor="">Password</label>
+              <label htmlFor="" className="font-bold font-normal">
+                Password
+              </label>
               <input
                 type="password"
-                placeholder="johndoe@gmail.com"
-                className=" bg-[#EAEAEA] rounded-xl px-2 py-1 outline-none"
+                placeholder="••••••••••"
+                className=" bg-[#EAEAEA] rounded-xl px-4 py-1 outline-none  font-lato font-normal"
               />
             </span>
-            <p className="text-[#346BD4]">Forgot password?</p>
+            <p className="text-[#346BD4] cursor-pointer font-normal">
+              Forgot password?
+            </p>
             <button className="bg-black text-center w-full rounded-md text-white py-2">
               Sign In
             </button>
           </form>
-          <p className="text-base text-center text-[#858585]">
+          <p className="text-base text-center text-[#858585] font-lato font-normal">
             Don't have an account?{" "}
-            <span className="text-[#346BD4]">Register here</span>
+            <span className="text-[#346BD4] cursor-pointer">Register here</span>
           </p>
         </article>
       </section>

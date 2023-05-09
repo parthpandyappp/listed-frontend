@@ -4,10 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
+
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+        lato: ['Lato', 'Montserrat'],
+        // foldit: ['Foldit', 'sans-serif'],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
