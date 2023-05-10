@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Auth } from "../pages";
+import { Analytics, Auth } from "../pages";
 
 const Endpoints = () => {
   return (
     <Routes>
       <Route path="/" element={<Auth />} />
+      <Route path="/analytics" element={<Analytics />} />
     </Routes>
   );
 };
