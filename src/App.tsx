@@ -2,7 +2,6 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Routes } from "./routes";
-import { Nav } from "./components";
 import { useLocation } from "react-router-dom";
 
 function App() {
