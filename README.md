@@ -6,9 +6,10 @@ The project is a result of the frontend task assigned by the Listed Fans. It's a
 ### How it stands out?
 1. Highly scalable folder structure.
 2. Modular code, more components.
-3. Implementation of ***Barrels*** in ReactJs.
-4. Up to date ***version control*** with `git`, feature branches.
-5. Proper ***segregation*** of `components` and `pages` in the application.
+3. Data served over JSON.
+4. Implementation of ***Barrels*** in ReactJs.
+5. Up to date ***version control*** with `git`, feature branches.
+6. Proper ***segregation*** of `components` and `pages` in the application.
 
 ### Features
 1. `/` route takes you to the auth page.
