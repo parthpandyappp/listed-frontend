@@ -1,7 +1,7 @@
 const DashBoardBar = () => {
   return (
     <section className="flex flex-col md:flex-row justify-between items-center py-5">
-      <h1 className="text-2xl font-bold mb-3 md:m-0">Dashboard</h1>
+      <h1 className="text-2xl font-bold">Dashboard</h1>
       <div className="flex gap-6 items-center">
         <span className="flex justify-between gap-2 bg-white items-center px-6 py-1 w-full rounded-xl">
           <input
