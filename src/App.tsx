@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
   return (
-    <div className="h-screen min-h-screen flex flex-col font-montserrat">
+    <div className="h-screen min-h-screen bg-[#F5F5F5] overflow-y-scroll flex flex-col font-montserrat">
       {/* {location.pathname !== "/" && <Nav />} */}
       <Routes />
     </div>
