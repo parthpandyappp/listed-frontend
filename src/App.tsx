@@ -9,7 +9,7 @@ function App() {
   const location = useLocation();
   return (
     <div className="h-screen min-h-screen flex flex-col font-montserrat">
-      {location.pathname !== "/" && <Nav />}
+      {/* {location.pathname !== "/" && <Nav />} */}
       <Routes />
     </div>
   );
