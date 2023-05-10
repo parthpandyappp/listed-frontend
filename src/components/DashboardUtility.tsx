@@ -2,7 +2,7 @@ import { DASHBOARD_OPTIONS } from "../db";
 
 const DashboardUtility = () => {
   return (
-    <article className="hidden md:block w-full md:w-2/5 bg-black h-full w-full rounded-2xl text-white flex justify-between flex-col px-[60px] py-[50px]">
+    <article className="hidden md:flex w-full md:w-2/5 bg-black h-full w-full rounded-2xl text-white flex justify-between flex-col px-[60px] py-[50px]">
       <section className="">
         <h1 className="font-bold text-3xl">Board.</h1>
         <div className="mt-[60px] flex flex-col gap-10">

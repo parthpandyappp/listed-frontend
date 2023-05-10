@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Auth = () => {
   return (
     <main className="flex flex-col md:flex-row h-full w-full grow">
@@ -48,9 +50,11 @@ const Auth = () => {
             <p className="text-[#346BD4] cursor-pointer font-normal">
               Forgot password?
             </p>
-            <button className="bg-black text-center w-full rounded-md text-white py-2">
-              Sign In
-            </button>
+            <Link to="/analytics">
+              <button className="bg-black text-center w-full rounded-md text-white py-2">
+                Sign In
+              </button>
+            </Link>
           </form>
           <p className="text-base text-center text-[#858585] font-lato font-normal">
             Don't have an account?{" "}
