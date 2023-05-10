@@ -16,7 +16,11 @@ const DashBoardBar = () => {
             className="w-4 h-4 cursor-pointer"
           />
         </span>
-        <img src="/assets/notification_icon.png" alt="" className="w-5 h-5" />
+        <img
+          src="/assets/notification_icon.png"
+          alt=""
+          className="w-5 h-5 cursor-pointer"
+        />
         <img
           src="/assets/profile_icon.png"
           alt=""
